@@ -1,0 +1,83 @@
+.quote {
+  background-color: rgb(65, 79, 114);
+  width: 650px;
+  margin: 30px auto;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .quote {
+    width: 100%;
+  }
+}
+
+.quote-input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  width: 15%;
+}
+
+.quote-input__rating {
+  font-size: 1.2rem;
+}
+
+.quote-input__votes {
+  font-size: 0.8rem;
+}
+
+.quote-input__up,
+.quote-input__down {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.active {
+  opacity: 1;
+}
+
+.deleted {
+  opacity: 0.6;
+}
+
+.quote-data {
+  width: 100%;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.quote-data__text {
+  padding: 10px 0 0 20px;
+}
+
+.quote-data__author {
+  float: right;
+  position: absolute;
+  bottom: 15%;
+  right: 3%;
+  color: gray;
+}
+
+.green {
+  color: #16ba16;
+}
+
+.lightGreen {
+  color: #9afe03;
+}
+
+.orange {
+  color: orange;
+}
+
+.darkOrange {
+  color: rgb(222, 163, 54);
+}
+
+.red {
+  color: red;
+}
